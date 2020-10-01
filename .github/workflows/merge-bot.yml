@@ -1,0 +1,2 @@
+- name: PR Merge Bot
+  uses: squalrus/merge-bot@v0.4.2
