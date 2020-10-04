@@ -1,5 +1,5 @@
-import PyPDF2  #module to extract contents of PDF
-import pyttsx3
+import PyPDF2  # module to extract contents of PDF
+import pyttsx3  # module for speech to text conversion
 
 def extract_text(filename):
 	"""
@@ -31,5 +31,5 @@ def speak_text(text):
 
 
 if __name__ == "__main__":
-	text = extract_text("YourFileName.pdf") #Enter Your Pdf File
+	text = extract_text("FileName.pdf") #Enter Your Pdf File
 	speak_text(text)
