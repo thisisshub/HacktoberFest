@@ -1,6 +1,5 @@
-import PyPDF2
+import PyPDF2  #module to extract contents of PDF
 import pyttsx3
-
 
 def extract_text(filename):
 	"""
