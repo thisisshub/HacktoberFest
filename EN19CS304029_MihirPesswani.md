@@ -31,5 +31,5 @@ def speak_text(text):
 
 
 if __name__ == "__main__":
-	text = extract_text("FileName.pdf") #Enter Your Pdf File
+	text = extract_text("YourFileName.pdf") #Enter Your Pdf File Name in place of YourFileName
 	speak_text(text)
