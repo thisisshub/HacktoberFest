@@ -2,7 +2,7 @@
 #This is the Api code to get location.
 import urllib.error, urllib.request, urllib.parse
 import json
-
+#give the target api url to open 
 target = '' 
 local = input('Enter location: ')
 url = target + urllib.parse.urlencode({'address': local, 'key' : 42})
