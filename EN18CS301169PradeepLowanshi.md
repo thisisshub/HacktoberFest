@@ -1,4 +1,5 @@
-#Hello!
+#Hello
+#This is the Api code to get location.
 import urllib.error, urllib.request, urllib.parse
 import json
 
