@@ -1,0 +1,12 @@
+x=input("Enter name:")
+y=input("Enter class:-")
+sub1=int(input("Enter marks of English: "))
+sub2=int(input("Enter marks of Hindi: "))
+sub3=int(input("Enter marks of Maths: "))
+sub4=int(input("Enter marks of Science: "))
+sub5=int(input("Enter marks of Economics: "))
+Total=(sub1+sub2+sub3+sub4+sub5)
+Percentage=(Total/500*100)
+print("Total is: ",Total)
+print("Percentage is:  ",Percentage
+)
