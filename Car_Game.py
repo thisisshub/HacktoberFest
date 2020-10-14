@@ -22,4 +22,4 @@ while True:
     elif command == "QUIT":
         break
     else:
-        print("I don't understsand that...")
+        print("I don't understsand that...Please input a valid key")
