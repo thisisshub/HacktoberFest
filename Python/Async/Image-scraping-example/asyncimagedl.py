@@ -3,9 +3,6 @@
 import random
 import io
 import aiohttp
-import requests
-import os
-import urllib3
 import asyncio
 from PIL import Image
 
