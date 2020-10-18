@@ -1,0 +1,40 @@
+import java.util.*;
+class BinarySearch
+{
+  public static void main(String args[])
+  {
+    int c, f, l, mid, n, search, arr[];
+ 
+    Scanner a = new Scanner(System.in);
+    System.out.println("Enter size of the array");
+    n = a.nextInt();
+    arr = new int[n];
+ 
+    System.out.println("Enter " + n + " integers"); 
+    for (c = 0; c < n; c++)
+      arr[c] = a.nextInt();
+
+    System.out.println("Enter value to find in an array");
+    search = a.nextInt(); 
+    f  = 0;
+    l   = n - 1;
+    mid = (f + l)/2;
+ 
+    while( f <= l )
+    {
+      if ( arr[mid] < search )
+        f = mid + 1;    
+      else if ( arr[mid] == search )
+      {
+        System.out.println(search + " found at location " + (mid + 1) + ".");
+        break;
+      }
+      else
+         l = mid - 1;
+ 
+      mid = (f + l)/2;
+   }
+   if (f > l)
+      System.out.println(search + " isn't present in the list.\n");
+  }
+}
