@@ -1,0 +1,81 @@
+public class CircularQueue {
+  int s = 5;
+  int f=-1, r=-1;
+  int items[] = new int[s];
+  boolean isFull() {
+    if (f == 0 && r == s- 1) {
+      return true;
+    }
+    if (f == r + 1) {
+      return true;
+    }
+    return false;
+  }
+  boolean isEmpty() {
+    if (f == -1)
+      return true;
+    else
+      return false;
+  }
+  void insert(int element) {
+    if (isFull()) {
+      System.out.println("Queue is full");
+    } else {
+      if (f == -1)
+        f = 0;
+      r = (r + 1) % s;
+      items[r] = element;
+      System.out.println("Inserted " + element);
+    }
+  }
+  int delete() {
+    int element;
+    if (isEmpty()) {
+      System.out.println("Queue is empty");
+      return (-1);
+    } else {
+      element = items[f];
+      if (f == r) {
+        f = -1;
+        r = -1;
+      } 
+      else {
+        f = (f + 1) % s;
+      }
+      return (element);
+    }
+  }
+
+  void display() {
+    int i;
+    if (isEmpty()) {
+      System.out.println("Empty Queue");
+    } else {
+      System.out.println("f -> " + f);
+      System.out.println("Items -> ");
+      for (i = f; i != r; i = (i + 1) % s)
+        System.out.print(items[i] + " ");
+      System.out.println(items[i]);
+      System.out.println("r -> " + r);
+    }
+  }
+
+  public static void main(String[] args) {
+
+    CQueue q = new CQueue();
+    q.delete();
+
+    q.insert(1);
+    q.insert(2);
+    q.insert(3);
+    q.display();
+    int elem = q.delete();
+    if (elem != -1) {
+      System.out.println("Deleted Element is " + elem);
+    }
+    q.display();
+    q.insert(7);
+    q.display();
+  }
+
+}
