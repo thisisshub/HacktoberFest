@@ -24,3 +24,12 @@ $ git commit -m "<Commit MESSAGE>"
 $ git push origin <new_branch>
 ```
 Go and Generate Pull request from Github
+
+
+
+### Amazing Contributors for this project:
+<a href="https://github.com/thisisshub/HacktoberFest/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=thisisshub/HacktoberFest" />
+</a>
+
+Made with [contributors-img](https://contributors-img.web.app).
