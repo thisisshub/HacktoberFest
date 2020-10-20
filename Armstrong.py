@@ -2,9 +2,13 @@
 # number is equal to the number itself.
 n = int(input())
 s = 0
-for i in str(n):
-    s += int(i)**3
-if s == n:
-    print("ARMSTRONG NUMBER")
+order = len(str(n))
+temp = n
+while temp > 0:
+   digit = temp % 10
+   s += digit ** order
+   temp //= 10
+if n == s:
+   print(n,"is an ARMSTRONG NUMBER")
 else:
-    print("NOT A ARMSTRONG NUMBER")
+   print(n,"is NOT AN ARMSTRONG NUMBER")
