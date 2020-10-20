@@ -2,9 +2,8 @@
 # a[::-1] --> 'olleh'
 
 def RevS(a):
-	a=str(a)
-	for i in a[::-1]: # efficient way in python
-		print(i,end="")
+	a=str(a)[::-1]
+	print(a)
 	print()
 s=input()
 RevS(s)
