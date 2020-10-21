@@ -1,0 +1,24 @@
+class Solution {
+public:
+    ListNode* middleNode(ListNode* head) {
+        ListNode *ptr=head;
+        int len=1,pos=1;
+        while(ptr!=NULL)
+        {
+            ptr=ptr->next;
+            len++;
+        }
+        ptr=head;
+       while(pos!=(len/2))
+            {
+                ptr=ptr->next;
+                pos++;
+            }
+        if(len%2!=0)
+        {
+            ptr=ptr->next;
+        }
+        return ptr;
+        
+    }
+};
