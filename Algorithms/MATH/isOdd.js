@@ -1,5 +1,5 @@
 /*
- * function that checkd if a number is odd
+ * function that checks if a number is odd
  * return true if number is odd
  * else false
  */
