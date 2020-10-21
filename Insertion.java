@@ -1,30 +1,36 @@
-public class InsertionSortExample {  
-    public static void insertionSort(int array[]) {  
-        int n = array.length;  
-        for (int j = 1; j < n; j++) {  
-            int key = array[j];  
-            int i = j-1;  
-            while ( (i > -1) && ( array [i] > key ) ) {  
-                array [i+1] = array [i];  
-                i--;  
-            }  
-            array[i+1] = key;  
-        }  
-    }  
-       
-    public static void main(String a[]){    
-        int[] arr1 = {9,14,3,2,43,11,58,22};    
-        System.out.println("Before Insertion Sort");    
-        for(int i:arr1){    
-            System.out.print(i+" ");    
-        }    
-        System.out.println();    
-            
-        insertionSort(arr1);//sorting array using insertion sort    
-           
-        System.out.println("After Insertion Sort");    
-        for(int i:arr1){    
-            System.out.print(i+" ");    
-        }    
-    }    
-}    
+import java.util.Scanner;
+class Insertion
+{
+public static void sorting(int A[]) 
+{   int n = A.length;
+    int i,j,t;  
+    for(i=1;i<n;i++)  
+	{      
+        j=i-1;   
+		t=A[i];    
+		while(j>-1 && A[j]>t)        
+		{           
+  	        A[j+1]=A[j];            
+			j--;        
+		}       
+		A[j+1]=t;   
+	}  
+	  
+ }
+public static void main(String[]args)
+{   
+    Scanner sc = new Scanner(System.in);
+	int x,y;
+	System.out.println("enter the number of integer elements:");
+	x = sc.nextInt();
+	int A[]=new int[x];
+	System.out.println("enter the elements:");
+	for(y=0;y<x;y++)
+		A[y] = sc.nextInt();
+	sorting(A);
+	System.out.println("elements after sorting:");
+	for(y=0;y<x;y++)
+		System.out.print(A[y]+",");
+	 
+}
+}
