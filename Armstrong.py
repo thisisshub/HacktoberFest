@@ -1,14 +1,20 @@
-# Armstrong number :- Example for a three digit no. The sum of cubes of digits of
-# number is equal to the number itself.
-n = int(input())
-s = 0
-order = len(str(n))
-temp = n
+# Python program to check if the number is an Armstrong number or not
+
+# take input from the user
+num = int(input("Enter a number: "))
+
+# initialize sum
+sum = 0
+
+# find the sum of the cube of each digit
+temp = num
 while temp > 0:
    digit = temp % 10
-   s += digit ** order
+   sum += digit ** 3
    temp //= 10
-if n == s:
-   print(n,"is an ARMSTRONG NUMBER")
+
+# display the result
+if num == sum:
+   print(num,"is an Armstrong number")
 else:
-   print(n,"is NOT AN ARMSTRONG NUMBER")
+   print(num,"is not an Armstrong number")
