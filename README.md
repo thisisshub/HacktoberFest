@@ -20,6 +20,7 @@ $ git checkout <new_branch>
 Add your Program
 
 ```sh
+$ git add .
 $ git commit -m "<Commit MESSAGE>"
 $ git push origin <new_branch>
 ```
