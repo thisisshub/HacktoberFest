@@ -3,7 +3,6 @@ from moviepy.editor import *
 
 logo = r'''
           V҉i҉d҉e҉o҉2҉G҉I҉F҉
-	  https://github.com/SandyUndefined/Video-2-GIF
 '''
 
 features = r'''
