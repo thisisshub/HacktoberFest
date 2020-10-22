@@ -1,0 +1,19 @@
+/* initial loop counter to print the natural numbers from 1 to 20 or from 10 to 20 by using if statment*/
+
+#include <stdio.h>
+
+int main() {
+
+int i = 0;
+
+while(i<=20){
+
+    printf("The value of i is %d\n", i);
+
+i++;
+
+}
+
+    return 0;
+
+}
