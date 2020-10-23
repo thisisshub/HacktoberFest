@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/layoutID"
+    android:background="@color/off_white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:padding="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title"
+                android:textSize="18sp"
+                android:textStyle="bold|italic"
+                android:layout_centerHorizontal="true"
+                />
+
+            <EditText
+                android:id="@+id/groceryItemID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/grocery_item"
+                android:layout_below="@id/title"
+                android:layout_marginTop="15dp"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/groceryQtyID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/groceryItemID"
+                android:layout_marginTop="15dp"
+                android:hint="@string/grocery_quantity"
+                android:textSize="18sp"/>
+
+            <Button
+                android:id="@+id/save_buttonID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/groceryQtyID"
+                android:layout_marginTop="5dp"
+                android:background="@color/colorAccent"
+                android:text="@string/save_button"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"/>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/confirmID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="50dp"
+                android:layout_gravity="center_horizontal"
+                android:textAlignment="center"
+                android:text="@string/confirmation_text"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/confirmID"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp">
+                <Button
+                    android:id="@+id/noButtonID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="30dp"
+                    android:textColor="@android:color/white"
+                    android:background="@color/colorAccent"
+                    android:text="@string/no_button"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/yesButtonID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:textColor="@android:color/white"
+                    android:background="@color/colorAccent"
+                    android:text="@string/yes_button"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
