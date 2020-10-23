@@ -9,7 +9,7 @@ This is a beginners repository for anyone wishing to contribute to HacktoberFest
   - Magic
 
 ### Process
-< this is a placeholder >  // please change this accordingly
+< Added Unique program >  // please change this accordingly
 ```sh
 $ git clone <URL>
 $ cd <FolderName>
