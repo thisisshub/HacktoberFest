@@ -10,7 +10,7 @@ main()
 {
     struct abaikan lembur;
 
-    strcpy(lembur.kerja, "Alasan Tok");
+    strcpy(lembur.kerja, "Alasan Saja");
 
     printf("\n %s \n", lembur.kerja);
 }
