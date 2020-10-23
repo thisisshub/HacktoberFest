@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function Time() {
+  var day = new Date();
+  var h = day.getHours();
+  var m = day.getMinutes();
+  var s = day.getSeconds();
+  m = fun1(m);
+  s = fun1(s);
+  document.getElementById('text').innerHTML =
+  h + ":" + m + ":" + s;
+  var t = setTimeout(Time, 500);
+}
+function fun1(i) {
+  if (i < 10) {i = "0" + i};  
+  return i;
+}
+</script>
+</head>
+
+<body onload="Time()">
+
+<div id="text"></div>
+
+</body>
+</html>
