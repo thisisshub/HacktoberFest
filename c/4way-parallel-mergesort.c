@@ -1,4 +1,4 @@
-#include "assign1_q2_funcs.h"
+#include "4way-parallel-mergesort-functions.h"
 #include <math.h>
 #include <stdlib.h>
 #include <stdio.h>
