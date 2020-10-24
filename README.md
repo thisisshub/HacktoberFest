@@ -9,7 +9,8 @@ This is a beginners repository for anyone wishing to contribute to HacktoberFest
   - Magic
 
 ### Important Note:
-Please Commit your files in the respective folders. 
+Please commit your files in the respective folders. 
+
 Ex:- `.py` files must go in `python/` folder and others in `misc` folder.
 
 ### Process
