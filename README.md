@@ -40,3 +40,4 @@ Go and Generate Pull request from Github
 </a>
 
 Made with [contributors-img](https://contributors-img.web.app).
+### THANKS A LOT!
