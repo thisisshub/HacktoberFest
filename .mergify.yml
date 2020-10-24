@@ -4,5 +4,7 @@ pull_request_rules:
       - "#approved-reviews-by>=0"
       - base=master
     actions:
+      label:
+        add: ['hacktoberfest-accepted']
       merge:
         method: merge
