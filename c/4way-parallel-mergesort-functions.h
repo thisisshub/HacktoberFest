@@ -1,5 +1,5 @@
-#ifndef _ASSIGN1_Q2_FUNCS_H_
-#define _ASSIGN1_Q2_FUNCS_H_
+#ifndef _4WAY_PARALLEL_MERGESORT_FUNCS_H_
+#define _4WAY_PARALLEL_MERGESORT_FUNCS_H_
 
 #include <stdbool.h>
 
