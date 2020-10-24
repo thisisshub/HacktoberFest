@@ -1,4 +1,4 @@
-#include "assign1_q2_funcs.h"
+#include "4way-parallel-mergesort-funcs.h"
 
 #include <stdio.h>
 #include <math.h>
@@ -12,7 +12,7 @@
 #include <sys/shm.h>
 #include <signal.h>
 
-// Merge sort solution of Tutorial 1
+
 void merge_4_way(int* array, int low, int mid1, int mid2, int mid3, int high) {
     int n1 = mid1 - low;
     int n2 = mid2 - mid1;
