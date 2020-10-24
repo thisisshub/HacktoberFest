@@ -140,7 +140,6 @@ int main()
 	int arr[] = {1, 3, 5, 7, 9, 11}; 
 	int n = sizeof(arr)/sizeof(arr[0]); 
 
-	// Build segment tree from given array 
 	int *st = constructST(arr, n); 
 
 	// Print sum of values in array from index 1 to 3 
