@@ -2,17 +2,17 @@
 
 using namespace std;
 
-struct node
+typedef struct node
 {
     int data;          // Data of node
     struct node *next; // Address of the next node
-} * stnode;
+} node,* stnode;
 
 void createNodeList(int n)
 {
-    struct node *fnNode, *tmp;
+    node *fnNode, *tmp;
     int num, i;
-    stnode = (struct node *)malloc(sizeof(struct node));
+    stnode = (node *)malloc(sizeof(node));
 
     if (stnode == NULL)
     {
@@ -29,7 +29,7 @@ void createNodeList(int n)
 
         for (i = 2; i <= n; i++)
         {
-            fnNode = (struct node *)malloc(sizeof(struct node));
+            fnNode = (node *)malloc(sizeof(node));
             if (fnNode == NULL)
             {
                 printf("Memory can not be allocated.");
@@ -52,7 +52,7 @@ void createNodeList(int n)
 
 void displayList()
 {
-    struct node *tmp;
+    node *tmp;
     if (stnode == NULL)
     {
         printf("List is empty");
@@ -70,7 +70,7 @@ void displayList()
 
 void reverseList()
 {
-    struct node *prevNode, *curNode;
+    node *prevNode, *curNode;
     if (stnode != NULL)
     {
         prevNode = stnode;
