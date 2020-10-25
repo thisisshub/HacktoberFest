@@ -1,0 +1,117 @@
+Feira de Santana-Alagoinhas-80
+Feira de Santana-Serrinha-68
+Feira de Santana-Riachao do Jacuipe-80
+Alagoinhas-Inhambupe-46
+Alagoinhas-Esplanada-64
+Alagoinhas-Feira de Santana-80 
+Inhambupe-Esplanada-67
+Inhambupe-Alagoinhas-46
+Esplanada-Conde-46
+Esplanada-Inhambupe-67
+Esplanada-Alagoinhas-64
+Conde-Mangue Seco-32
+Conde-Esplanada-46
+Mangue Seco-Conde-32
+Serrinha-Feira de Santana-68
+Serrinha-Conceicao do Coite-36
+Serrinha-Riachao do jacuipe-68
+Serrinha-Tucano-86
+Serrinha-Santaluz-86
+Riachao do Jacuipe-Serrinha-68
+Riachao do Jacuipe-Conceicao Do Coite-32
+Riachao do Jacuipe-Capim Grosso-103
+Riachao do Jacuipe-Feira de Santana-80
+Conceicao do coite-Serrinha-36
+Conceicao do coite-Riachao do jacuipe-32
+Conceicao do coite-Santaluz-50
+Santaluz-Conceicao do Coite-50
+Santaluz-Serrinha-86
+Santaluz-Queimadas-42
+Santaluz-Tucano-100
+Cipo-Tucano-68
+Cipo-Ribeira do Pombal-85
+Tucano-Serrinha-86
+Tucano-Santaluz-100
+Tucano-Cipo-68
+Tucano-Euclides Da Cunha-58
+Tucano-Ribeira do Pombal-35
+Ribeira do Pombal-Tucano-35
+Ribeira do Pombal-Cipo-85
+Ribeira do Pombal-Cícero Dantas-36
+Cicero Dantas-Ribeira do Pombal-36
+Cicero Dantas-Jeremoabo-57
+Euclides Da Cunhas-Tucano-58
+Euclides Da Cunha-Monte Santo-36
+Euclides Da Cunhas-Rio de Pedras-67
+Capim Grosso-Riachao do Jacuipe-103
+Capim Grosso-Jacobina-64
+Jacobina-Pindobacu- 71
+Jacobina-Capim Grosso-64
+Queimadas-Santaluz-42
+Queimadas-Cansancao-40
+Cansancao-Itiuba-45
+Cansancao-Queimadas-40
+Cansancao-Monte Santo-34
+Monte Santo-Cansancao-34
+Monte Santo-Euclides da Cunha-36
+Monte Santo-Senhor do Bonfim-109
+Itiuba-Cansancao-45
+Itiuba-Senhor do Bonfim-66
+Senhor do Bonfim-Itiuba-66
+Senhor do Bonfim-Campo Formoso-27
+Senhor do Bonfim-Jaguarari-26
+Senhor Do Bonfim-Monte Santo-109
+Campo Formoso-Juazeiro-835
+Campo Formoso-Senhor Do Bonfim-27
+Campo Formoso-Pindobacu-26
+Pindobacu-Campo Formoso-26
+Jeremoabo-Cícero Dantas-57
+Jeremoabo-Paulo Afonso-85
+Jeremoabo-Rio de Pedras-116
+Paulo Afonso-Jeremoabo-85
+Rio de Pedras-Jeremoabos-116
+Rio de Pedras-Euclides Da Cunha-67
+Rio de Pedras-Uaua-35
+Uaua-Rio de Pedras-35
+Uaua-Pinhoes-55
+Pinhoes-Uaua-55
+Pinhoes-Juazeiro-43
+Juazeiro-Massaroca-54
+Juazeiro-Pinhoes-43
+Massaroca-Juazeiro-54
+Massaroca-Jaguarari-46
+Jaguarari-Massaroca-46
+Jaguarari-Senhor do Bonfim-26
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

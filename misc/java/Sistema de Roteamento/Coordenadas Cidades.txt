@@ -1,0 +1,35 @@
+Feira de Santana;715;604
+Alagoinhas;816;581
+Inhambupe;826;518
+Esplanada;900;520
+Conde;960;524
+Mangue Seco;980;500
+Serrinha;710;494
+Riachao do Jacuipe;641;521
+Conceicao do Coite;659;477
+Santaluz;642;418
+Cipo;799;392
+Tucano;749;366
+Ribeira do Pombal;792;342
+Cicero Dantas;823;297
+Euclides da Cunha;709;281
+Capim Grosso;528;444
+Jacobina;436;405
+Queimadas;597;365
+Cansancao;621;311
+Monte Santo;651;268
+Itiuba;555;314
+Senhor do Bonfim;496;271
+Campo Formoso;471;279
+Pindobacu;462;324
+Jeremoabo;831;200
+Paulo Afonso;855;78
+Rio de Pedras;675;180
+Uaua;625;155
+Pinhoes;551;108
+Juazeiro;441;83
+Massaroca;479;162
+Jaguarari;494;235
+
+
+
