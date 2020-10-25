@@ -9,7 +9,7 @@ import tabula
 import os
 
 
-url= 'https://www.camara.leg.br/internet/comissao/index/mista/orca/orcamento/OR2020/precatorios/TRF%202a%20Regi%C3%A3o.pdf'
+url= 'url.pdf'
 pdf = requests.get(url)
 
 pdf_name = input("Type the name for the pdf file: ")
