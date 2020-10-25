@@ -1,0 +1,43 @@
+Feira de Santana-Alagoinhas-80
+Feira de Santana-Serrinha-68
+Feira de Santana-Riachao do Jacuipe-80
+Alagoinhas-Inhambupe-46
+Alagoinhas-Esplanada-64
+Inhambupe-Esplanada-67
+Esplanada-Conde-46
+Conde-Mangue Seco-32
+Serrinha-Riachao do jacuipe-68
+Serrinha-Tucano-86
+Serrinha-Santaluz-86
+Riachao do Jacuipe-Conceicao do Coite-32
+Riachao do Jacuipe-Capim Grosso-103
+Conceicao do Coite-Santaluz-50
+Santaluz-Queimadas-42
+Santaluz-Tucano-100
+Cipo-Tucano-68
+Cipo-Ribeira do Pombal-85
+Tucano-Euclides Da Cunha-58
+Tucano-Ribeira do Pombal-35
+Ribeira do Pombal-Cicero Dantas-36
+Cicero Dantas-Jeremoabo-57
+Euclides Da Cunha-Monte Santo-36
+Euclides Da Cunha-Rio de Pedras-67
+Capim Grosso-Jacobina-64
+Jacobina-Pindobacu- 71
+Queimadas-Cansancao-40
+Cansancao-Itiuba-45
+Cansancao-Monte Santo-34
+Monte Santo-Senhor do Bonfim-109
+Itiuba-Senhor do Bonfim-66
+Senhor do Bonfim-Campo Formoso-27
+Senhor do Bonfim-Jaguarari-26
+Campo Formoso-Juazeiro-835
+Campo Formoso-Pindobacu-26
+Jeremoabo-Paulo Afonso-85
+Jeremoabo-Rio de Pedras-117
+Rio de Pedras-Uaua-35
+Uaua-Pinhoes-55
+Pinhoes-Juazeiro-43
+Juazeiro-Massaroca-54
+Massaroca-Jaguarari-46
+Conceicao do Coite-Serrinha-35
