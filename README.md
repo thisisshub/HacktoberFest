@@ -34,11 +34,11 @@ Go and Generate your first Pull request from Github
 
 
 
-### Amazing Contributors for this project:
+### Outstanding Contributors for this project:
 <a href="https://github.com/thisisshub/HacktoberFest/graphs/contributors">
   <img src="https://contributors-img.web.app/image?repo=thisisshub/HacktoberFest" />
 </a>
 
 
 Made with [contributors-img](https://contributors-img.web.app).
-### THANKS A LOT!
+### THANKS A LOT FOR YOUR SUPPORT!! REALLY HELPS ME A LOT!
