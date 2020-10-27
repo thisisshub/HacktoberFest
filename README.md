@@ -30,7 +30,7 @@ $ git add .
 $ git commit -m "<Commit MESSAGE>"
 $ git push origin <new_branch>
 ```
-Go and Generate Pull request from Github
+Go and Generate your first Pull request from Github
 
 
 
