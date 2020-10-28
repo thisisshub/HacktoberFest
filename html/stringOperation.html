@@ -1,0 +1,81 @@
+<!-- Author Ashhar Farooqui -->
+<!-- This is simple String operations used in javaScripts -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Operations</title>
+</head>
+<body>
+
+            <label>Enter String value here : </label>&nbsp
+            <input type="text" id="txt"> <br><br>
+            <label>Find index of : </label>&nbsp&nbsp
+            <input type="text" id="txt1"> <br><br>
+            <label>Last index of : </label>&nbsp&nbsp
+            <input type="text" id="txt"> <br><br>
+            <label>Enter Search item : </label>&nbsp
+            <input type="text" id="txt"> <br><br>
+            <label>Enter replace item : </label>&nbsp
+            <input type="text" id="txt"> <br><br>
+            <label>Enter Contact item : </label>&nbsp
+            <input type="text" id="txt"> <br><br>
+            <input type="submit" value = "String Length" onclick="myfun()">
+            <input type="submit" value = "Find Index" onclick="myfunction2()">
+            <input type="submit" value = "Find Index(-)" onclick="lstindex()">
+            <input type="submit" value = "Search" onclick="srch()">
+            <input type="submit" value = "to Upper" onclick="uppr()">
+
+           
+          <p id = "demostr"></p>
+          <script>
+            
+            function myfun()
+            {
+                var str = document.getElementById("txt").value;
+                var x = str.length;
+                document.getElementById("demostr").innerHTML = x;
+            }
+            function myfunction2()
+            {
+                var str = document.getElementById("txt").value;
+                var str2 = document.getElementById("txt1").value;
+                var pos = str.indexOf(str2);
+                document.getElementById("demostr").innerHTML = pos;
+            }
+
+            function lstindex()
+            {
+                var str = document.getElementById("txt").value;
+                var str2 = document.getElementById("txt1").value;
+                var pos = str.lastIndexOf(str2);
+                document.getElementById("demostr").innerHTML = pos;
+            }
+
+            function srch()
+            {
+                var str = document.getElementById("txt").value;
+                var str2 = document.getElementById("txt1").value;
+                var pos = str.search(str2);
+                document.getElementById("demostr").innerHTML = pos;
+            }
+
+            function uppr()
+            {
+                var str = document.getElementById("txt").value;
+                var str2 = str.toUpperCase();
+                document.getElementById("demostr").innerHTML = str2; 
+
+            }
+            //var lent = str.length;
+            //function strfun(fstr)
+            //{
+            //    return length(fstr);
+            //}
+            
+
+        </script>
+
+    
+</body>
+</html>
