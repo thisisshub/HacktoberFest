@@ -1,0 +1,117 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: 'light';
+}
+body{
+    background: #2e3c4d; /*For browsers that don't support gradiients*/
+    background-image: radial-gradient(#2e3c4d 50%, #0a1016 100%);
+}
+header h1{
+    color: #000000;
+    background: #ffffff;
+    font-weight: 900;
+    background-image: linear-gradient(#ffffff,#ddd);
+    text-align: center;
+    padding: 20px;
+}
+.score_board{
+    position: relative;
+    text-align: center;
+    width: 200px;
+    margin:20px auto; 
+    size: 30px;
+    border: 3px solid #000000;
+    background: #ffffff;
+    border-radius: 4px;
+    font-size: 45px;
+    color: #000000;
+}
+.badge{
+    background: #ffffff;
+    border: 3px solid #000000;
+    font-size: 20px;
+    position: absolute;
+    padding: 2px 10px;
+    border-radius: 4px;
+    color: #1dd629;
+    
+}
+#comp_label{
+    position: absolute;
+    top: 10;
+    right: -40px;
+    color: #360917;
+
+}
+#user_label{
+    position: absolute;
+    top: 10;
+    left: -30px;
+    color: #360917;
+}
+.result{
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 20px;
+    color: #c4cbd8;
+    font-family: 'Ubuntu', sans-serif;
+}
+.choices{
+    text-align: center;
+    margin: 50px 0;
+}
+.choice{
+    border: 4px solid rgba(233, 216, 216, 0.863);
+    border-radius: 50%;
+    background-color: #50a8c8;
+    background-image: linear-gradient(#50a8c8, #367e9a);
+    display: inline-block;
+    padding: 40px;
+    margin: 2px;
+    
+}
+.choice img{
+    margin: 20;
+}
+.action{
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #c4cbd8;
+}
+.choice:hover{
+    cursor: pointer;
+    background-color: #50a8c8;
+    background-image: linear-gradient(#5abadd, #3f93b4);
+}
+.choice:active{
+    cursor: pointer;
+    background-color: #9dc4a8;
+}
+
+.green-glow{
+    border: 4px solid #1dd629;
+    box-shadow: 0 0 20px #18b122;
+}
+.red-glow{
+    border: 4px solid #fc121b;
+    box-shadow: 0 0 20px #e91215;
+}
+.grey-glow{
+    border: 4px solid rgba(233, 216, 216, 0.863);
+    box-shadow: 0 0 15px #e6e6e6;
+}
+
+
+
+
+
+
+
