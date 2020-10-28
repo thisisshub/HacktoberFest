@@ -1,7 +1,9 @@
 //Program demonstrating the application of doubly linked list
 
-/*Write an algorithm (using doubly linked list) and subsequent  C program for your algorithm, which inserts a new element between every pair of consecutive elements. 
-The new element is the sum of its neighbors. For example, your  C code will produce output 12 46 34 90 56 134 78 93 15 80 65 137 72 for the input 12 34 56 78 15 65 72.*/
+/*Write an algorithm (using doubly linked list) and subsequent  C program for your algorithm, which inserts a new element between every pair of 
+consecutive elements. 
+The new element is the sum of its neighbors. For example, your  C code will produce output 12 46 34 90 56 134 78 93 15 80 65 137 72 for the 
+input 12 34 56 78 15 65 72.*/
 
 #include<stdio.h>
 #include<stdlib.h>
