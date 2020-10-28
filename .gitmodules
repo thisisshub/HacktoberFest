@@ -1,0 +1,3 @@
+[submodule "Python/Urna-eletronica"]
+	path = Python/Urna-eletronica
+	url = https://github.com/joanasoaresd/Urna-eletronica.git
