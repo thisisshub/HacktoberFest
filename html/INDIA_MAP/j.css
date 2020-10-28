@@ -1,0 +1,35 @@
+*
+{
+margin:0;
+padding:0;	
+}
+#particles-js{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(purple.jpg);
+	height:100vh;
+	background-size:cover;
+	background-position:center;
+}
+.logo
+{
+	margin-top:25px;
+	font-size:28px;
+	text-transform:uppercase;
+}
+.welcome
+{
+	position:absolute;
+    width: 100%;
+}
+.welcome h1
+{
+	margin-top:220px;
+	letter-spacing:2px;
+	font-size:42px;
+	text-transform:uppercase;
+}
+.welcome padding
+{
+	font-size:16px;
+	margin-top:25px;
+	font-family:monospace;
+}
