@@ -1,0 +1,86 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.c{
+	clear: both;
+}
+.header{
+	background: #385999;
+	height: 11vh;
+}
+.logo{
+	color: white;
+	font-size: 35px;
+	font-weight: bold;
+	padding-left: 250px;
+	float: left;
+}
+.form{
+	float: right;
+	margin-right: 310px;
+	margin-top: 10px;
+	color: white;
+	line-height: 18px;
+	font-size: 14px
+}
+.table td{
+	padding-left: 10px;
+}
+.content{
+	background: #edf0f5;
+}
+.left{
+	float: left;
+	margin-top: 55px;	
+}
+.toptext{
+	text-align: left;
+	font-size: 30px;
+	font-weight: bold;
+	padding-left: 270px;
+}
+.bottomtext{
+	text-align: left;
+	font-size: 18px;
+	padding-left: 265px;
+	margin-top: 30px;
+}
+.bottomtext table tr{
+	line-height: 50px;
+}
+.right{
+	float:left;
+}
+.right h1{
+	color: black;
+	margin-top: 20px;
+	padding-left: 80px;
+	font-size: 30px;
+	font-weight: bold;
+}
+.right p{
+	color: black;
+	margin-top:-20px;
+	padding-left: 80px;
+	font-size: 20px;
+}
+.right form table{
+	padding-left: 70px;
+	padding-top: 20px; 
+}
+.right form table tr td{	
+	padding-top: 15px;
+}
+.right form table tr td input[type="text"] {
+    width: 200px;
+    padding-left: 10px;
+    height: 35px;
+    border-radius: 5px;
+}
+.right form table tr td input[type="password"] {
+    width: 350px;
+    height: 35px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
