@@ -1,34 +1,12 @@
 <!-- Author Ashhar Farooqui -->
 <!-- This is simple String operations used in javaScripts -->
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>String Operations</title>
-</head>
-<body>
-
-            <label>Enter String value here : </label>&nbsp
-            <input type="text" id="txt"> <br><br>
-            <label>Find index of : </label>&nbsp&nbsp
-            <input type="text" id="txt1"> <br><br>
-            <label>Last index of : </label>&nbsp&nbsp
-            <input type="text" id="txt"> <br><br>
-            <label>Enter Search item : </label>&nbsp
-            <input type="text" id="txt"> <br><br>
-            <label>Enter replace item : </label>&nbsp
-            <input type="text" id="txt"> <br><br>
-            <label>Enter Contact item : </label>&nbsp
-            <input type="text" id="txt"> <br><br>
-            <input type="submit" value = "String Length" onclick="myfun()">
-            <input type="submit" value = "Find Index" onclick="myfunction2()">
-            <input type="submit" value = "Find Index(-)" onclick="lstindex()">
-            <input type="submit" value = "Search" onclick="srch()">
-            <input type="submit" value = "to Upper" onclick="uppr()">
-
-           
-          <p id = "demostr"></p>
-          <script>
+	<script>
             
             function myfun()
             {
@@ -75,6 +53,66 @@
             
 
         </script>
+	<style>
+	body{
+		padding-left:450px;
+		padding-top:200px;
+		
+		border-style:inset;
+		background-color:lightgrey;
+		
+	
+	}
+	table{ width:45.65%;
+		
+		border:2px solid black;
+		background-color:lightblue;
+	
+	}
+	
+	tr:nth-child(even){
+	
+		background-color: #f2f2f2
+	}
+	</style>
+</head>
+<body>		<h1>String Operations:<h1>
+<table>
+			<tr>
+            <td><label><strong>Enter String value here : </strong></label></td>
+            <td><input type="text" id="txt"></td>
+			</tr>
+			<tr>
+            <td><label><strong>Find index of :</strong> </label></td>
+            <td><input type="text" id="txt1"> </td>
+			</tr>
+			<tr>
+            <td><label><strong>Last index of :</strong> </label></td>
+            <td><input type="text" id="txt"> </td>
+			</tr>
+			<tr>
+            <td><label><strong>Enter Search item :</strong> </label></td>
+            <td><input type="text" id="txt"> </td>
+			</tr>
+			<tr>
+            <td><label><strong>Enter replace item :</strong> </label></td>
+            <td><input type="text" id="txt"> </td>
+			</tr>
+			<tr>
+            <td><label><strong>Enter Contact item :</strong> </label></td>
+            <td><input type="text" id="txt"> </td>
+			</tr>
+			</table>
+            <input type="submit" value = "String Length" onclick="myfun()">
+            <input type="submit" value = "Find Index" onclick="myfunction2()">
+            <td ><input type="submit" value = "Find Index(-)" onclick="lstindex()">
+            <input type="submit" value = "Search" onclick="srch()">
+           <input type="submit" value = "to Upper" onclick="uppr()">
+			
+
+           
+          <p id = "demostr"></p>
+          
 
     
 </body>
