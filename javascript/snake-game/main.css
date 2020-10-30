@@ -1,0 +1,9 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+canvas {
+  padding-top: 10%;
+  background-color: white;
+}

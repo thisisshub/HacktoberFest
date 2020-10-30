@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+</head>
+<style>
+    .header {
+  overflow: hidden;
+  background-color: #79583a;
+  padding: 50px 20px;
+  background-image: url("https://i.pinimg.com/originals/20/c4/35/20c435b971b2dba5244d1454c7eabbf6.jpg");
+  background-attachment: fixed;
+  /* background-repeat: no-repeat; */
+background-position-x: center;
+background-position-y: center;
+
+}
+
+/* Style the header links */
+.header a {
+  float: left;
+  color: rgb(218, 182, 182);
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 25px;
+  border-radius: 30px;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+  font-size: 40px;
+  font-weight: italic;
+
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+  background-color: rgb(182, 154, 154);
+  color: black;
+  
+}
+
+/* Style the active/current link*/
+.header a.active {
+  background-color: dodgerblue;
+  color: rgb(227, 228, 200);
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+}
+.Headind{
+     text-align: center;
+    background: linear-gradient(to right,  #cf8960 30%, #5980a5 90%);
+    margin-right: 25%;
+    margin-bottom : 20px;
+    width: 50%;
+    float: right;
+
+
+    
+   
+}
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+
+    </style>
+<body>
+    <div class="header">
+         <a href="#default" class="logo">Linkin park</a>
+        <div class="header-right">
+            <a class="active" href="#home">Home</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+        </div>
+    </div>
+    <br><br><br>
+
+    <div class = "container">
+<div class="row">
+    
+    <div class="col-md-12 col-sm-10">
+        <h1 class= "Headind">
+        Greatest Hits
+        </h1>
+
+    </div>
+</div>
+    </div>
+        
+<div class="container"  style="background: linear-gradient(to bottom, #ca6d38 10%, #496075 80%);">
+    <div class="row">
+        <div class="col-sm-4 col-sm-10">
+            <div class="card" style="color: #23486b;">
+                <img src="img/burn.jpg" alt="John" style="width:90%; height: 400px;">
+                <h1>Burn It Down</h1>
+                <div class="val" style="font-size: 20px; font-style: italic;">
+                <p class="title">Album: Living Things <b>(2012)</b></p>
+                <p>Awards : MTV Video Music <b>Award</b> for Best Visual Effects </p></p></div>
+                <p class="valok" style="font-size: x-large;">
+                    <a href="#"><i class="fa fa-dribbble"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                </p>
+                
+                <br>
+                <input type="button" value="Connect" class="btn btn-danger btn-inline"></input>
+            </div>
+        </div>
+
+        <div class="col-sm-4 col-sm-10">
+            <div class="card" style="color:  #23486b;">
+                <img src="img/numb.jpg" alt="John" style="width:80%; height: 400px;">
+                <h1>Numb</h1>
+                <div class="val" style="font-size: 20px; font-style: italic;">
+                <p class="title" >Album : Meteora <b>(2003)</b></p>
+                <p>Awards : Much Music Video Award for People's Choice</p>
+                </div>
+                <p class="valok" style="font-size: x-large;">
+                    <a href="#"><i class="fa fa-dribbble"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                </p>
+                <br>
+                <input type="button" value="Connect" class="btn btn-danger btn-inline"></input>
+            </div>
+        </div>
+        <div class="col-sm-4 col-sm-10">
+            <div class="card" style="color:  #23486b;">
+                <img src="img/intheend.jpg" alt="John" style="width: 80%; height: 400px;">
+                <h1>In The End</h1>
+                <div class="val" style="font-size: 20px; font-style: italic;">
+                <p class="title">Album : Reanimation<b>(2002)</b></p>
+                <p>Award : MTV Video Music Award for Video of the Year</p>
+                </div>
+                <p class="valok" style="font-size: x-large;">
+                    <a href="#"><i class="fa fa-dribbble"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                </p>
+                <br>
+                <input type="button" value="Connect" class="btn btn-danger btn-inline"></input>
+
+            </div>
+        </div>
+    </div>
+
+    <br><br><br>
+    <div class="row">
+        <div class="col-sm-6 col-sm-6">
+            <div class="card" style="color: #ca6d38;">
+                <img src="img/casstle.jpg" alt="John" style="width:70% ; height: 400px;">
+                <h1>Castle Of Glass</h1>
+                <div class="val" style="font-size: 23px; font-style: italic;">
+                <p class="title">Album: Living Things <b>(2012)</b></p>
+                <p>Genres: Nu metal, Hard Rock</p>
+                </div>
+                <p class="valok" style="font-size: x-large;">
+                    <a href="#"><i class="fa fa-dribbble"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                </p>
+                <br>
+                <input type="button" value="Connect" class="btn btn-danger btn-inline"></input>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-sm-6">
+                <div class="card" style="color: #ca6d38;">
+                    <img src="img/oneMore.jpg" alt="John" style="width:60% ;  height: 400px;">
+                    <h1>One More Light</h1>
+                    <div class="val" style="font-size: 23px; font-style: italic;">
+                    <p class="title">Album: One More Light <b>(2017)</b></p>
+                    <p>Nominations: MTV Video Music Award for Best Rock Video</p>
+                    </div>
+                    <p class="valok" style="font-size: x-large;">
+                        <a href="#"><i class="fa fa-dribbble"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                    </p>
+                        
+                    <input type="button" value="Connect" class="btn btn-danger btn-inline"></input>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+    </nav>
+</div>
+</div>
+</div>
+
+</body>
+
+
+</body>
+</html>
+   

@@ -1,0 +1,287 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Quicksand', sans-serif;
+}
+.container{
+	width: 1250px;
+	margin: auto;
+}
+.container:after{
+	content: '';
+	clear: both;
+	display: table;
+}
+#home{
+	background: url(../images/header.jpg);
+	background-size: cover;
+	height: 790px;
+}
+header{
+	padding: 40px 0px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.black{
+	background: rgba(0,0,0,0.8);
+	padding: 40px 0px;
+}
+.logo{
+	float: left;
+}
+.nave{
+	float: right;
+}
+.nave ul{
+	list-style: none;
+	padding: 10px;
+}
+.nave ul li{
+	float: left;
+}
+.nave ul li a{
+	text-decoration: none;
+	color: white;	
+	padding: 53px 55px;
+	font-weight: bold;
+}
+.mida{
+	padding: 350px 0px 0px 0px;
+	color: white;
+	text-align: center;
+}
+.mida h1{
+	font-size: 3.5em;
+	font-weight: bold;	
+}
+.mida p{
+	font-size: 1.1em;
+	padding-top: 25px;
+}
+.down{
+	padding: 13%;
+	text-align: center;
+}
+#select{
+	background: #f5f6f7;
+	padding: 62px 0px;
+}
+.selector{
+	float: left;
+	padding: 10px 0px;
+	font-weight: bold;
+}
+.selector input:first-child{
+	margin: 0px 20px 0px 0px;
+}
+.selector input:nth-child(2){
+	margin: 0px 20px 0px 40px;
+}
+.selector input:last-child{
+	margin: 0px 20px 0px 40px;
+}
+.see{
+	float: right;
+	padding-right: 65px; 
+}
+.btn{
+	background: #aa9b77;
+	padding: 10px 35px;
+	border-radius: 7px;
+}
+.btn a{
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+}
+#products{
+	background: #fff;
+}
+.pleft{
+	float: left;
+	padding-top: 87px;
+}
+.pleft a{
+	text-decoration: none;
+	color: #000;
+	float: left;
+	font-size: 18px;
+	font-weight: bold;
+}
+.line{ 
+	width: 80%; 
+	height: 3px; 
+	background: black;
+	top: 98px;
+	left: -60px;
+	position: relative;
+	float: right;
+}
+.saman{
+	padding: 98px 65px;
+}
+.box1{
+	background: #f5f6f7;
+	width: 320px;
+	height: 370px;
+	float: left;
+}
+.box1 img{
+	padding: 52px 91px 0px 74px;
+}
+.size{
+	padding: 24px 0px 0px 19px;
+	float: left;
+	font-weight: bold;
+}
+.color{
+	float: right;
+}
+.color ul{
+	list-style: none;	
+	padding: 20px 20px 0px 143px;
+}
+.color ul li:first-child{
+	background: blue;
+	border-radius: 50%;
+	width: 21px;
+	height: 21px;
+	float: left;
+	margin-right: 5px;
+}
+.color ul li:nth-child(2){
+	background: yellow;
+	border-radius: 50%;
+	width: 21px;
+	height: 21px;
+	float: left;
+	margin: 0px 5px;
+}
+.color ul li:last-child{
+	background: grey;
+	border-radius: 50%;
+	width: 21px;
+	height: 21px;
+	float: left;
+	margin: 0px 5px;
+}
+.saman table{
+	border: 0px;
+}
+.saman table td:first-child{
+	padding-left: 0px;
+}
+.saman table td{
+	padding: 0px 55px;
+}
+.item1{
+	float: left;
+	padding: 46px 0px 25px 20px;
+	font-weight: bold;
+}
+.price{
+	float: right;
+	padding: 46px 25px 0px 20px;
+	font-weight: bold;
+}
+.pleft1{
+	padding: 95px 62px;
+}
+.pleft1 a{
+	text-decoration: none;
+	color: #000;
+	float: right;
+	font-size: 18px;
+	font-weight: bold;
+}
+.line1{ 
+	width: 80%; 
+	height: 3px; 
+	background: black;
+	top: -86px;
+	right: -3px;
+	position: relative;
+	float: left;
+}
+#about{
+	height: 400px;
+	background: #aa9b77;
+	overflow: hidden;
+}
+#about h1{
+	padding: 55px 20px 50px 20px;
+}
+#about p{
+	padding: 35px 0px 60px 0px;
+	text-align: center;
+}
+#about fieldset legend{
+	padding: 0px 540px;
+	text-align: center;
+}
+i{
+	color: black;
+}
+.twitter{
+	background: #535253;
+	height: 71px;
+}
+.content{
+}
+.content i{
+	font-size: 20px;
+	float: left;
+	padding: 25px 0px 0px 65px;
+	color: #424242;
+}
+.content p{
+	float: right;
+	padding: 25px 875px 25px 0px;
+	color: #fff;
+}
+#contact{
+	height: 350px;
+	background: #424242;	
+}
+.footer{
+	color: #fff;
+}
+.fleft{
+	float: left;
+}
+.fleft h1{
+	line-height: 50px;
+	padding-top: 81px;
+}
+.fleft p{
+	font-size: 10px;
+	text-align: left;
+	padding-top: 20px;
+}
+.fright{
+	float: right;
+}
+.fright ul{
+	list-style: none;
+	padding-top: 154px; 
+}
+.fright ul li{
+	float: left;
+	padding: 0px 15px;
+}
+.fright ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+.fright ul li {
+	border-right: 3px solid yellow;
+}
+.fright ul li:last-child {
+	border-right: none
+}

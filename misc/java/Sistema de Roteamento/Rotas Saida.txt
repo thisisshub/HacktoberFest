@@ -1,0 +1,19 @@
+Feira de Santana->Serrinha ||  Distância: 68KM
+Serrinha->Tucano ||  Distância: 86KM
+Tucano->Ribeira do Pombal ||  Distância: 35KM
+Tucano->Ribeira do Pombal ||  Distância: 35KM
+Cipo->Tucano ||  Distância: 68KM
+
+
+Tucano->Cipo ||  Distância: 68KM
+Tucano->Serrinha ||  Distância: 86KM
+Serrinha->Feira de Santana ||  Distância: 68KM
+
+Distância Total da Ida: 292.0KM
+
+Distância Total da Volta: 222.0KM
+
+Distância Total: 514.0KM
+Custo total viagem: R$236.44
+------------------------
+

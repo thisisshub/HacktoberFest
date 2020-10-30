@@ -1,0 +1,24 @@
+version: '3'
+
+volumes:
+  uatu-postgres-data:
+    driver: local
+
+networks:
+  network:
+
+services:
+  uatu-postgres:
+    image: postgres:9.6
+    container_name: my_database
+    #volume is very importante to dont lose data
+    volumes:
+      - database-postgres-data:/var/lib/postgresql/data
+    networks: 
+      - network
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_DB=iamhere
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=root

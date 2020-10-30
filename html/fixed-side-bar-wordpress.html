@@ -1,0 +1,36 @@
+<script type="text/javascript">
+jQuery(function(){   
+var nav = jQuery('#right-sidebar');
+jQuery(window).scroll(function () { 
+	if (jQuery(this).scrollTop() > 150) { 
+		nav.addClass("menu-fixed");
+	} else { 
+		nav.removeClass("menu-fixed");
+	} 
+});  
+});
+
+//POR ALTURA DO DOCUMENTO E PAUSANDO NO FINAL
+
+jQuery(function(){   
+var nav = jQuery('#right-sidebar');
+jQuery(window).scroll(function () { 
+	if (jQuery(this).scrollTop() > 120 && jQuery(this).scrollTop() < jQuery(document).height()*0.6 ) { 
+		nav.addClass("menu-fixed");
+	} else { 
+		nav.removeClass("menu-fixed");
+	} 
+});  
+});
+
+</script>
+<style type="text/css">
+@media (min-width: 768px){
+.menu-fixed{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:10;
+}
+}
+</style>
