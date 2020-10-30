@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class WhoseBigger {
+    public static void main(String args[]) {
+        int a, b;
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter Number A: ");
+        a = scanner.nextInt();
+        System.out.println("Enter Number B: ");
+        b = scanner.nextInt();
+        scanner.close();
+        if (a > b) {
+            System.out.println(a + " is larger");
+        } else if (a == b) {
+            System.out.println("These numbers are equal");
+        } else {
+            System.out.println(b + " is larger");
+
+        }
+
+    }
+
+}
