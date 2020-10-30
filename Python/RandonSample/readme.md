@@ -1,0 +1,1 @@
+Block to get random number of objects in an array
