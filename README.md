@@ -34,7 +34,7 @@ Go and Generate your first Pull request from Github
 
 
 
-### Outstanding Contributors for this project:
+### Outstanding Contributors for this PROJECT:
 <a href="https://github.com/thisisshub/HacktoberFest/graphs/contributors">
   <img src="https://contributors-img.web.app/image?repo=thisisshub/HacktoberFest" />
 </a>
