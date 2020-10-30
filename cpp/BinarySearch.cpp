@@ -1,5 +1,4 @@
-#include <cstdio>
-#include <algorithm>
+#include<bits/stdc++.h>
 using namespace std;
 int x[25005];
 bool sol[200005];
