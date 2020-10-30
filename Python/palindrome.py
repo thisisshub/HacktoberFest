@@ -1,8 +1,25 @@
-def palindrome(s):
-    return s == s[::-1]
-s = input("enter input:")
-ans = palindrome(s)
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[3]:
+
+
+def isPalindrome(s):
+	return s == s[::-1]
+
+
+# Driver code
+s = "123321"
+ans = isPalindrome(s)
+
 if ans:
-    print(s,"is a palindrome")
+	print("Yes")
 else:
-    print(s,"is not a palindrome")
+	print("No")
+
+
+# In[ ]:
+
+
+
+
