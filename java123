@@ -1,0 +1,33 @@
+// code written in base class 
+import java.util.*;
+class product 
+{
+String name ;
+int code;
+double amount;
+product(String n, int c, double p)
+{
+name=n;
+code=c;
+amount=p;
+}
+void show()
+{
+System.out.println("NAME OF THE PRODUCT :\t"+name);
+System.out.println("PRODUCT CODE :\t"+code);
+System.out.println("THE AMOUNT OF THE PRODUCT :\t"+amount);
+}
+public static void main()
+{
+    Scanner in =new Scanner(System.in);
+    System.out.println("enter name code and amt");
+    String n=in.next();
+    int code =in.nextInt();
+    int amt=in.nextInt();
+    product obj=new product(n,code,amt);
+    obj.show();
+}
+}
+
+// end of base class 
+
