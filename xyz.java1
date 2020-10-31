@@ -1,0 +1,52 @@
+class Stack 
+{
+    String st[]= new String[50];
+    int size,top,ctr;
+    Stack()
+    {
+        top=-1;
+        ctr=0;
+    }
+    Stack(int cap)
+    {
+        size=cap;
+    }
+    void pushname(String n)
+    {
+        if(top==size-1)
+        System.out.println("OVERFLOW");
+        else
+        {
+            top++;
+            st[top]=n;
+            ctr++;
+        }
+    }
+    String popname()
+    {
+        String v;
+        if(top==-1)
+        {
+            System.out.println("Underflow");
+            return("");
+        }
+        else
+        {
+            v=st[top];
+            top--;
+            ctr--;
+            return(v);
+        }
+    }
+    void display()
+    {
+        if(top==-1)
+        System.out.println("Underflow");
+        else
+        {
+         for(int i=top;i>0;i--)
+         System.out.println(st[i]);
+         System.out.println("NUMBER OF ELEMENTS IN THE STACK \t"+ctr);
+        }
+    }
+}
