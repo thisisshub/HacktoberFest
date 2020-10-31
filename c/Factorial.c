@@ -12,6 +12,9 @@ int main()
     int n, num;
     printf("Enter no. to find factorial: ");
     scanf("%d", &n);
-    num = factorial(n);
+    if (n>0)
+        num = factorial(n);
+    else
+        printf("Please enter a positive integer number");
     printf("%d! = %d", n, num);
 }
