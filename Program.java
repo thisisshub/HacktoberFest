@@ -1,57 +1,43 @@
-class Employee
+import java.util.*;
+class sort_insertion
+{
+  public static void main()
+  {
+    Scanner in = new Scanner(System.in);
+    //declaration of the array
+    String name[]= new String[5];
+    int marks[]= new int[5];
+    String temp1;
+    int i,j,temp2;
+    //input names and their marks
+    System.out.println("Enter 5 names and their marks");
+    for(i=0;i<5;i++)
     {
-        public string name;
-        public int salary;
-        public int joiningDate;
-
-        public Employee()
-        {
-
-        }
-
-        public Employee(string name, int salary, int joiningDate)
-        {
-            this.name = name;
-            this.salary = salary;
-            this.joiningDate = joiningDate;
-        }
-
-        public void GetEmployeeData()
-        {
-            {
-                Console.WriteLine("Enter the name of employee: ");
-                name = Convert.ToString(Console.ReadLine());
-                Console.WriteLine("Enter the salary of employee: ");
-                salary = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine("Enter the date of joining of employee: ");
-                joiningDate = Convert.ToInt32(Console.ReadLine());
-            }
-        }
-
-        public void DisplayEmployee()
-        {
-            Console.WriteLine("The name of employee is: "+ name);
-            Console.WriteLine("The salary of employee is: "+salary);
-            Console.WriteLine("The date of joining of employee is: "+joiningDate);
-        }
+    name[i]=in.next();
+    marks[i]=in.nextInt();
     }
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Employee[] e = new Employee[10];
-            for(int i = 0; i < 10; i++)
-            {
-                 Console.WriteLine($"Enter the data of employee with id: {i} *****************************************");
-                e[i] = new Employee();
-                e[i].GetEmployeeData();
-            }
-
-            Console.WriteLine("***********The data of given employees is: ");
-
-            for(int i = 0; i < 10; i++)
-            {
-                e[i].DisplayEmployee();
-            }
-        }
+    //sorting the array using insertion sort technique
+   for(i=1;i<5;i++)
+   {
+   temp1=name[i];
+   temp2=marks[i];
+   j=i-1;
+   
+   while(j>=0 && temp2>marks[j])
+   {
+    marks[j+1]=marks[j];
+    name[j+1]=name[j];
+    j=j-1;
     }
+   name[j+1]=temp1;
+   marks[j+1]=temp2;
+}
+  //printing the sorted array
+  System.out.println("Content");
+  System.out.println("Name "+"\t"+" marks");
+  for(i=0;i<5;i++)
+  {
+  System.out.println(name[i]+"\t" +marks[i]);
+  }
+}
+}
