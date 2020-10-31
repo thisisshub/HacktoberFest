@@ -1,0 +1,29 @@
+// code written in derived class 
+class sales extends product 
+{
+int day;
+double tax;
+double totamt;
+sales( String n1,int c1, double p1, int d)
+{
+super(n1,c1,p1);
+day=d;
+tax =0.0;
+totamt=0.0;
+}
+void compute()
+{
+double f= 0.0D;
+tax=12.4/100.0*amount;
+if(day>30)
+f=2.5/100.0*amount;
+totamt = amount +tax+f;
+}
+void show() 
+{
+super.show();
+System.out.println("TOTAL AMOUNT : RS.\t"+totamt);
+}
+}
+// end of the derived class 
+
