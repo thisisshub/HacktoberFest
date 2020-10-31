@@ -15,9 +15,9 @@ while True:
             print("Car is already stopped")
     elif command == "HELP":
         print("""
-        start- To start the car
-        stop- To stop the car
-        quit- To quit
+        START- To start the car
+        STOP- To stop the car
+        QUIT- To quit
         """)
     elif command == "QUIT":
         break
