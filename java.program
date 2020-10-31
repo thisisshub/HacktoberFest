@@ -1,0 +1,86 @@
+import java.util.*;
+class project1_program
+{
+    public static void main()
+    {
+        Scanner in=new Scanner(System.in);
+        
+        String s="",s2="";
+        int len=0,i,len2=0,j,l=0;
+        char ch;
+        //INPUT A SENTENCE
+        System.out.println("ENTER A SENTENCE NOT MORE THAN 100 CHARACTERS");
+        s=in.nextLine();
+        s=s+" ";
+        s=s.toUpperCase();
+        len=s.length();//LENGTH OF THE INPUT
+       
+        for(i=0;i<len;i++)
+        {
+            ch=s.charAt(i);  //Extracting letters 
+            if(ch!=' ')
+            s2=s2+ch;        
+            else
+            {
+              len2=s2.length(); 
+
+              String a,b,d,wrd="";
+              int len3,c,p=0,g=0;
+              
+              for(j=0;j<len2;j++)
+              {
+                a=s2.substring(j,j+1);
+                b=a; 
+                c=0;
+                p=j+1;
+                
+                for(int m=j+1;m<=len2;m++)
+                 {  
+                   for( l=1;l>0;l++)
+                    { 
+                        if(p<=(len2-1))
+                        d=s2.substring(p,p+1);
+                        else
+                        d=s2.substring(p-1);
+                        
+                        len3=b.length();
+                        
+                        for(int q=0;q<len3;q++)
+                        {
+                          if(b.substring(q,q+1).equals(d))
+                          {
+                            c=1;
+                            break;
+                          }
+                        }
+                        
+                        if(c!=1)
+                        {
+                            b=b+d;
+                            p++;
+                        }//ADDITION OF CHARACTER IF NOT REPEATED 
+                        
+                        else 
+                        break;
+                        
+                      }
+                      if(c==1)
+                      break;
+                      //EXTRACTION OF THE SUBSTRING
+                   }   
+                   if(l>=g)
+                    {  
+                        g=l;
+                        wrd=b;
+                    }
+                    
+                    b="";
+                    
+                } 
+                // printing of the words
+                System.out.println(s2+"\t"+wrd);
+                s2="";b="";wrd="";
+            } 
+        }
+    }
+}
