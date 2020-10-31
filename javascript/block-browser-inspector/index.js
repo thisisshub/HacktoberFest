@@ -1,0 +1,1 @@
+function clickIE(){if(document.all)return!1}function clickNS(n){if((document.layers||document.getElementById&&!document.all)&&(2==n.which||3==n.which))return!1}document.layers?(document.captureEvents(Event.MOUSEDOWN),document.onmousedown=clickNS):(document.onmouseup=clickNS,document.oncontextmenu=clickIE),document.oncontextmenu=new Function("return false");
