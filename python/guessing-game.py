@@ -1,32 +1,20 @@
 import random
-x = random.randint(2,12)
-z = random.randint(1,3)
-a = random.randint(2,4)
-no_of_guesses = 3
-while no_of_guesses>0:
-    try:
-        y = int(input('enter a number:'))
-    except:
-        print('error! Please type a valid number.')
-        continue
-    if y!=x:
-        no_of_guesses = no_of_guesses - 1
-        print('try again')
-        print('hint:number lies between', (x-z,x+a))
-        continue
-    elif y == x:
-        if no_of_guesses == 3:
-            print('correct')
-            print('Your score is 200')
-            quit()
+number = random.randint(1, 10)
 
-        if no_of_guesses == 2:
-            print('correct')
-            print('Your score is 100')
-            quit()
-        elif no_of_guesses == 1:
-            print('correct')
-            print('Your score is 50')
-            quit()
+player_name = input("Hello, What's your name?")
+number_of_guesses = 0
+print('okay! '+ player_name+ ' I am Guessing a number between 1 and 10:')
 
-print('game over! The number is',x)
+while number_of_guesses < 5:
+    guess = int(input())
+    number_of_guesses += 1
+    if guess < number:
+        print('Your guess is too low')
+    if guess > number:
+        print('Your guess is too high')
+    if guess == number:
+        break
+if guess == number:
+    print('You guessed the number in ' + str(number_of_guesses) + ' tries!')
+else:
+    print('You did not guess the number, The number was ' + str(number))

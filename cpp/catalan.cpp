@@ -1,20 +1,21 @@
+/*
+find nth catalan number
+*/
 #include<iostream>
+#include<vector>
 using namespace std;
- 
-unsigned long int catalan(unsigned int n)
-{
-    if (n <= 1) return 1;
- 
-    unsigned long int res = 0;
-    for (int i=0; i<n; i++)
-        res += catalan(i)*catalan(n-i-1);
- 
-    return res;
-}
- 
 int main()
 {
-    for (int i=0; i<10; i++)
-        cout << catalan(i) << " ";
-    return 0;
+    int n;
+    cin>>n;
+    vector<int>catalin(n+1,0);
+    catalin[0]=1;
+    catalin[1]=1;
+    for(int i=2;i<=n;i++)
+    {
+        for(int j=0;j<i;j++)
+            catalin[i]=catalin[i]+catalin[j]*catalin[i-j-1];
+    }
+    cout<<catalin[n]<<endl;
+    
 }
