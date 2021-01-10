@@ -1,5 +1,15 @@
 # HacktoberFest 2020
 
+## Status
+![GitHub forks](https://img.shields.io/github/forks/thisisshub/HacktoberFest?label=Fork&style=flat-square)
+![GitHub Repo stars](https://img.shields.io/github/stars/thisisshub/HacktoberFest?style=flat-square)
+![GitHub repo size](https://img.shields.io/github/repo-size/thisisshub/Hacktoberfest?style=flat-square)
+![GitHub repo file count](https://img.shields.io/github/directory-file-count/thisisshub/HacktoberFest?style=flat-square)
+![Lines of code](https://img.shields.io/tokei/lines/github/thisisshub/HacktoberFest?style=flat-square)
+![GitHub language count](https://img.shields.io/github/languages/count/thisisshub/HacktoberFest?style=flat-square)
+![GitHub contributors](https://img.shields.io/github/contributors/thisisshub/HacktoberFest?style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/thisisshub/HacktoberFest?style=flat-square)
+
 This is a beginners repository for anyone wishing to contribute to HacktoberFest 2020
 
   - Fork the repository
@@ -32,13 +42,4 @@ $ git push origin <new_branch>
 ```
 Go and Generate your first Pull request from Github
 
-
-
-### Outstanding Contributors for this project:
-<a href="https://github.com/thisisshub/HacktoberFest/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=thisisshub/HacktoberFest" />
-</a>
-
-
-Made with [contributors-img](https://contributors-img.web.app).
 ### THANKS A LOT FOR YOUR SUPPORT!! REALLY HELPS ME A LOT!
