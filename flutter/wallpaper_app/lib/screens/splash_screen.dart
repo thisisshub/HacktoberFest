@@ -14,7 +14,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     super.initState();
-    Timer(Duration(seconds: 3), () {
+    Timer(Duration(seconds: 5), () {
       Navigator.pushReplacement(context,
           MaterialPageRoute(builder: (BuildContext context) => HomeScreen()));
     });
@@ -54,7 +54,7 @@ class _SplashScreenState extends State<SplashScreen> {
                     ),
                     Text(
                       "Awesome Wallpapers",
-                      style: TextStyle(fontSize: 20,color: Colors.white)
+                      style: TextStyle(fontSize: 22,color: Colors.white)
                     )
                   ],
                 ),
@@ -67,7 +67,7 @@ class _SplashScreenState extends State<SplashScreen> {
                       CircularProgressIndicator(
                         backgroundColor: Colors.white,
                       ),
-                      Padding(padding: EdgeInsets.only(top: 10))
+                      Padding(padding: EdgeInsets.only(top: 15))
                     ],
                   ))
             ],
