@@ -52,7 +52,7 @@ def quicksort(a, start, end):
 # Python implementation of the Quicksort algorithm
 if __name__ == '__main__':
  
-    a = [9, -3, 5, 2, 6, 8, -6, 1, 3]
+    a = [9, -3, 5, 2, 6, 8, -6, 1, 3, 16]
  
     quicksort(a, 0, len(a) - 1)
  
