@@ -10,7 +10,7 @@ class CalcLab
      * @param float $b
      * @return float
      */
-    public function soma(double $a, double $b): double
+    public function soma($a, $b)
     {
         return $a + $b;
     }
@@ -20,7 +20,7 @@ class CalcLab
      * @param float $b
      * @return float
      */
-    public function subtracao(double $a, double $b): double
+    public function subtracao($a, $b)
     {
         return $a + $b;
     }
@@ -30,7 +30,7 @@ class CalcLab
      * @param float $b
      * @return float
      */
-    public function divisao(double $a, double $b): double
+    public function divisao($a, $b)
     {
         return $a / $b;
     }
@@ -40,7 +40,7 @@ class CalcLab
      * @param float $b
      * @return float
      */
-    public function mult(double $a, double $b): double
+    public function mult( $a,  $b)
     {
         return $a * $b;
     }
