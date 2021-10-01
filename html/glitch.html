@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Glitch</title>
+
+    <style>
+        html,
+        body {
+            width: 100%;
+            min-height: 100%;
+            background: black;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            overflow: auto;
+        }
+
+        canvas {
+            align-self: center;
+            cursor: move;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <main>
+        <canvas id='canv'></canvas>
+    </main>
+
+    <script>
+        document.ready(function() {
+            var c = document.getElementById('canv');
+            var $ = c.getContext('2d');
+            c.width = 600;
+            c.height = 400;
+            var ms = false;
+            var w = 0,
+                h = 0;
+
+            var img = new Image();
+            img.src = 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/131045/404.png';
+
+            var set = function() {
+                var run, _h, _w, dx, a;
+                w = img.width;
+                h = img.height;
+                $.translate(50, 50);
+                a = 30;
+                dx = 0;
+                _w = w + 50;
+                _h = h + 50;
+                return (run = function() {
+                    var inc, i, j;
+                    $.clearRect(-a, -a, _w, _h);
+                    inc = ms === true ? 0.5 : 0.18;
+                    for (j = 0; j <= h; i = 0 <= h ? ++j : --j) {
+                        dx = ~~(inc * (Math.random() - 0.5) * a);
+                        $.drawImage(img, 0, i, w, 1, dx, i, w, 1);
+                    }
+                    window.requestAnimationFrame(run);
+                })();
+            };
+            img.onload = function() {
+                return set();
+            };
+            c.addEventListener('mouseover', function() {
+                return ms = true;
+            }, false);
+            c.addEventListener('touchmove', function(e) {
+                e.preventDefault();
+                return ms = true;
+            }, false);
+            c.addEventListener('mouseout', function() {
+                return ms = false;
+            }, false);
+            c.addEventListener('touchend', function() {
+                return ms = false;
+            }, false);
+        }());
+
+    </script>
+
+</body>
+
+</html>
