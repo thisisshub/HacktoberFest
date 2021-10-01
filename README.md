@@ -1,4 +1,4 @@
-# HacktoberFest 2020
+# HacktoberFest 2021
 
 ## Status
 ![GitHub forks](https://img.shields.io/github/forks/thisisshub/HacktoberFest?label=Fork&style=flat-square)
@@ -10,7 +10,16 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/thisisshub/HacktoberFest?style=flat-square)
 ![GitHub last commit](https://img.shields.io/github/last-commit/thisisshub/HacktoberFest?style=flat-square)
 
-This is a beginners repository for anyone wishing to contribute to HacktoberFest 2020
+
+## This repo will be partcipating in the [Hacktoberfest](https://hacktoberfest.digitalocean.com/) 2021.
+
+![](https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg)
+
+<h4>Readme Credit goes to <a href="https://github.com/yashsanghvi2001">@yashsanghvi2001</a> </h3>
+  <br>
+
+
+This is a beginners repository for anyone wishing to contribute to HacktoberFest 2021
 
   - Fork the repository
   - Clone your fork and Create a new branch
