@@ -1,0 +1,1 @@
+{"name":"Local: nCr","url":"e:\\Code\\Open Source\\HacktoberFest\\cpp\\nCr.cpp","tests":[{"id":1633096980707,"input":"100 95","output":"75287520"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Code\\Open Source\\HacktoberFest\\cpp\\nCr.cpp","group":"local","local":true}
