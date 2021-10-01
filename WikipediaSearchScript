@@ -1,0 +1,24 @@
+"""
+Este sencillo script nos permitira hacer peticones a los servidores de wikipedia,
+para poder obtener cualquier información, solo debes ingrsar una palabra para buscar.
+"""
+
+#Importamos la libreria que nos ayudar enviar peticiones a servidores webs
+import requests
+#Pedimos como entrada una palabra para buscar
+search = input("Buscar: ")
+#Una variable url con la dirección web de la api
+url = "https://es.wikipedia.org/w/api.php?action=opensearch"
+#Le pasamos como parametro de busqueda la palabra ingresada al inicio
+params = {'search': search}
+#El motodo get envia una peticón, le pasamos como parametro la url y el parametro de busqueda
+response = requests.get(url, params=params)
+#En una varibale guardamos la respuesta del servidor en formato json
+responsejson = response.json()
+
+#Todo este proceso nos ayuda a mostra la informacion obtenida, una por una.
+print("Información encontrada: \n")
+i = 0
+for info in responsejson[1]:
+    print(info + ":", responsejson[2][i] + " Más niformación en: ", responsejson[3][i] + "\n")
+    i = i+1
