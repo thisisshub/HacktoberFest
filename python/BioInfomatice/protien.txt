@@ -1,0 +1,17 @@
+Glycine Glutamine Lysine Lysine Proline Serine Proline Cysteine Leucine Leucine Threonine Isoleucine Histidine Proline Stop Lysine Proline Leucine Arginine Lysine Tryptophan Leucine Phenylalanine 
+Aspartic Histidine Leucine Alanine Leucine Proline Valine Tryptophan Glycine Tryptophan Aspartic Phenylalanine Cysteine Glutamine Cysteine Isoleucine Serine Leucine Cysteine Leucine Stop Phenylalanine Leucine 
+Proline Isoleucine Serine Threonine Glycine Serine Lysine Glutamine Arginine Proline Arginine Glutamine Valine Isoleucine Leucine Arginine Histidine Start Alanine Valine Alanine Asparagine Alanine 
+Stop Leucine Serine Serine Serine Leucine Tyrosine Phenylalanine Glutamine Threonine Threonine Stop Stop Leucine Leucine Leucine Glutamine Leucine Phenylalanine Leucine Lysine Leucine Threonine 
+Glutamine Start Stop Isoleucine Arginine Isoleucine Leucine Histidine Serine Proline Arginine Glycine Lysine Lysine Histidine Lysine Leucine Valine Phenylalanine Asparagine Leucine Cysteine Serine 
+Serine Isoleucine Histidine Glutamine Phenylalanine Valine Threonine Leucine Valine Proline Valine Asparagine Serine Glycine Lysine Glycine Isoleucine Leucine Arginine Alanine Serine Valine Threonine 
+Threonine Tryptophan Glutamine Valine Isoleucine Leucine Valine Threonine Valine Valine Glycine Serine Serine Valine Serine Stop Isoleucine Threonine Serine Threonine Phenylalanine Glutamine Leucine 
+Glycine Histidine Tryptophan Serine Threonine Valine Asparagine Arginine Glutamine Stop Glutamine Stop Leucine Stop Lysine Glutamine Valine Valine Leucine Phenylalanine Histidine Phenylalanine Stop 
+Phenylalanine Serine Valine Glycine Isoleucine Valine Phenylalanine Leucine Arginine Phenylalanine Alanine Histidine Aspartic Alanine Threonine Phenylalanine Start Serine Isoleucine Start Valine Tryptophan Threonine 
+Valine Serine Proline Tryptophan Tyrosine Phenylalanine Serine Serine Isoleucine Aspartic Isoleucine Valine Arginine Glutamic Cysteine Serine Threonine Tyrosine Serine Leucine Serine Isoleucine Arginine 
+Proline Glutamine Glycine Proline Serine Arginine Aspartic Histidine Serine Asparagine Proline Tyrosine Tyrosine Proline Aspartic Alanine Glycine Serine Histidine Isoleucine Cysteine Tryptophan Leucine 
+Tyrosine Leucine Leucine Serine Leucine Isoleucine Cysteine Isoleucine Isoleucine Phenylalanine Tyrosine Threonine Tyrosine Phenylalanine Isoleucine Tyrosine Serine Histidine Histidine Serine Leucine Arginine Histidine 
+Alanine Start Threonine Phenylalanine Tryptophan Phenylalanine Arginine Valine Serine Leucine Glutamine Phenylalanine Leucine Leucine Tyrosine Cysteine Stop Proline Serine Glutamic Threonine Leucine Arginine 
+Serine Leucine Phenylalanine Cysteine Valine Leucine Glutamine Leucine Leucine Lysine Alanine Arginine Valine Threonine Lysine Asparagine Alanine Lysine Histidine Arginine Arginine Glutamine Leucine 
+Alanine Asparagine Threonine Isoleucine Lysine Tyrosine Phenylalanine Isoleucine Proline Stop Isoleucine Cysteine Phenylalanine Stop Lysine Leucine Valine Stop Threonine Arginine Tyrosine Glycine Alanine 
+Threonine Alanine Isoleucine Leucine Isoleucine Lysine Glutamic Stop Glycine Tyrosine Asparagine Histidine Leucine Leucine Isoleucine Stop Lysine Aspartic Phenylalanine Tryptophan Leucine Glutamic Serine 
+Isoleucine Glutamic Threonine Valine Serine Tyrosine Serine Proline Proline Serine Isoleucine Leucine 
