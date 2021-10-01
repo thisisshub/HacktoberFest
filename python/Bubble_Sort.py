@@ -2,6 +2,7 @@
 # of Bubble sort 
 
 
+'''
 def bubbleSort(arr): 
 	n = len(arr) 
 
@@ -29,3 +30,16 @@ bubbleSort(arr)
 print ("Sorted array :") 
 for i in range(len(arr)): 
 	print ("%d" %arr[i],end=" ") 
+'''
+def bubble_sort(li):
+    l = len(li)
+    tmp = None
+    sorted_l = sorted(li)
+    while (li != sorted_l):
+        for ele in range(0,l-1):
+            if li[ele] > li[ele+1]:
+                tmp = li[ele+1]
+                li[ele+1] = li [ele]
+                li[ele] = tmp
+    return li
+
