@@ -1,0 +1,108 @@
+<html>
+
+<head>
+    <style>
+        body {
+            background-color: #99FFFF;
+        }
+
+        h1 {
+            font-style: italic;
+            text-align: center;
+            font-weight: bold;
+            color: #b03060;
+        }
+
+        table {
+            border-collapse: collapse;
+            border: 5px solid black;
+            width: 30%;
+            margin-left: 35%;
+        }
+
+        tr {
+            text-align: left;
+        }
+
+        td {
+            padding: 10px;
+            border: 2px solid black;
+        }
+
+        div {
+            font-weight: bold;
+            text-align: center;
+        }
+
+        #result {
+            font-style: italic;
+            color: #FF0000;
+            font-size: 40px;
+        }
+
+        #discount {
+            font-size: 25px;
+        }
+
+        #submitbutton {
+            margin-left: 45%;
+
+        }
+    </style>
+    <script type="text/javascript">
+        function validateForm() {
+            var season = document.getElementById("s").value;
+            var price = parseInt(document.getElementById("price").value);
+            var disc;
+            if (season == "summer") {
+                disc = 10;
+            }
+            else if (season == "newyear") {
+                disc = 5;
+            }
+            else {
+                disc = 15;
+            }
+            var tot = (price * (100 - disc)) / 100;
+            document.getElementById("discount").innerHTML = "The discount is " + disc + "%";
+            document.getElementById("result").innerHTML = "The discounted price : Rs " + tot;
+            return false;
+        }
+    </script>
+</head>
+
+<body>
+    <h1>DISCOUNT PRICE</h1>
+    <form method="get" name="myform" onsubmit="return validateForm()">
+
+        <table>
+            <tr>
+                <td>Product Name</td>
+                <td>
+                    <input type="text" name="name" required pattern="[a-zA-Z\s]+">
+                </td>
+            </tr>
+            <tr>
+                <td>Product Price</td>
+                <td>
+                    <input type="number" name="price" required min="15001" id="price">
+                </td>
+            </tr>
+            <tr>
+                <td>Season</td>
+                <td>
+                    <select name="season" id="s">
+                        <option value="summer">SUMMER SALE</option>
+                        <option value="newyear">NEW YEAR SALE</option>
+                        <option value="clearance">CLEARANCE SALE</option>
+                    </select>
+                </td>
+            </tr>
+        </table><br>
+        <input type="submit" name="submit" id="submitbutton" value="GET DISCOUNT PRICE">
+    </form><br>
+    <div id="discount"></div><br>
+    <div id="result"></div>
+</body>
+
+</html>
