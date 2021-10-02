@@ -1,4 +1,0 @@
-hello hi my name is meet
-i contribute in hectoberfest2020
-sorry i am late but i learn git and
-github and adding some text in flutter repo
