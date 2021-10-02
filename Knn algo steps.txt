@@ -1,0 +1,41 @@
+In K-NN, the training phase consists of only storing all the datapoints in the RAM.
+ You have to find the optimal 'K' value through k-fold cross validation..(Here k in K-fold CV is different
+ from K in KNN)
+
+1) Split the given dataset into train and test datasets(mostly 70:30 or 75:25)
+2) Let us take a  random set of values of K(in K-NN) using trial and error method.
+ All of them should be odd numbers. Let them be denoted as {set_of_values_for_K}
+3) Divide the train dataset(both X and Y components) into 'k' folds(parts). 
+Let us name them as fold_1,fold_2,fold_3,.....fold_k
+4)stage 1: Keep fold_1 as CV dataset and the remaining folds combinedly as training dataset.
+ Train the mode using this train dataset and make predictions on the CV dataset(fold_1). 
+ Compute the train error and CV error.
+stage 2: Keep fold_2 as CV dataset and the remaining folds combinedly as training dataset. 
+Train the mode using this train dataset and make predictions on the CV dataset(fold_2).
+ Compute the train error and CV error.
+.
+.
+.
+stage k: Keep fold_k as CV dataset and the remaining folds combinedly as training dataset.
+ Train the mode using this train dataset and make predictions on the CV dataset(fold_k). 
+ Compute the train error and CV error.
+
+Now compute the average of all the train errors and let us denote it as average_train_error.
+Now compute the average of all the CV errors and let us denote it as average_cv_error.
+
+5) For each value in {set_of_values_for_K}, repeat step 4 and
+   compute the average_train_error and average_cv_error.  
+6) Build a graph with K values on X-xis and Errors on Y-axis and plot both the average_train_error 
+ and average_cv_error associated with each value in {set_of_values_for_K} and whichever value of 'K' 
+ yields low average_train_error and average_cv_error, that is considered as an optimal 'K(hyperparameter in KNN)
+7) Now build an optimal model using the train data with the optimal 'K' value obtained and
+ then make predictions on the test data and compute the performance metrics.
+
+
+Suppose if you have a math exam or any other subject. You revise and solve the problem from textbook (Dtrain). 
+Now you want to check your knowledge whether you have confidence for tomorrow exam or not. 
+In order to do that you take other problems like workbooks and solve the problem (Dcv). Then you appear for the exam (Dtest).
+So, you see when you solve the math problem or other subject from textbook and workbooks, 
+you have observed that there wont be same questions between textbook and workbooks. In a similar fashion, 
+Dtrain and Dcv data never overlap each other. For the exam test, who knows what questions can come, it is unseen (Dtest). 
+For pratical purpose, we consider Dtest, Dtrain, Dcv never be same in order to increase your confidence of your model for further unseen data.
