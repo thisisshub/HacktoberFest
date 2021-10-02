@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="/fvc.png"/>
+    
+</head>
+
+<body>
+    <!-- Bookmark section -->
+    <div class="bookmark">
+        <h2>Made with ❤️ by <a href="https://aromalsanthosh.tech">Aromal</a></h2>
+    </div>
+    <!-- beginning of container -->
+    <div class="container">
+        <h1>To-Do List</h1>
+        <!-- Input text box and add button -->
+        <div class="add-todo">
+            <input id="add" type="text" placeholder="Add A New Task..">
+            <button id="bttn">Add</button>
+        </div>
+        <!-- List Of Todos -->
+        <div class="list">
+            <ul id="item">
+                <li class="task">
+                    <button id="edt" class="edit">
+                        <i class="fas fa-pencil-alt"></i>
+                    </button>
+                    Pay Electricity Bill
+                    <button id ="dlt" class="delete">X</button>
+                </li>
+                <li class="task">
+                    <button  id="edt" class="edit">
+                        <i class="fas fa-pencil-alt"></i>
+                    </button>
+                    Finish Todo App
+                    <button id ="dlt" class="delete">X</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- end of container -->
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/e53b41c6e6.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
