@@ -1,0 +1,20 @@
+public String findDifferentBinaryString(String[] nums) {
+        Set<String> exists = new HashSet(Arrays.asList(nums));
+
+        solve(nums[0].length(), "",  exists);
+        return res;
+    }
+    boolean found = false;
+    String res = null;
+    void solve(int size, String s, Set<String> exists) {
+        if(size == s.length()) {
+            if(!exists.contains(s)){
+                res = s;
+                found = true;
+            }
+            return;
+        }
+        solve(size, s + "1", exists);
+        if(!found)
+            solve(size, s + "0", exists);
+    }
