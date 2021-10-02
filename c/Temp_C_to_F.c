@@ -1,15 +1,14 @@
 #include<stdio.h>
 int main()
 {
-	float a, c, r;
+	float c, f;
 	
-	printf("Enter value for radius = ");
-	scanf("%f",&r);
+	printf("Enter Temp in c = ");
+	scanf("%f",&c);
 	
-	a= (22/7)*r*r;
-	c= 2*(22/7)*r;
-	printf("The area is = %f\n",a);
-	printf("The circumference is = %f",c);
+	f=(9.0/5.0*c)+32.0;
 	
+	printf("Temp in f = %.2f",f);
+
 	return 0;
 }
