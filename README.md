@@ -22,15 +22,14 @@
 This is a beginners repository for anyone wishing to contribute to HacktoberFest 2021
 
   - Fork the repository
-  - Clone your fork and Create a new branch
-  - Add your program
+  - Add your program in the folder where it is supposed to go
   - Generate your Pull Request
-  - Magic
+
 
 ### Important Note:
 Please commit your files in the respective folders. 
 
-Ex:- `.py` files must go in `python/` folder and others in `misc` folder.
+Ex:- `.py` files must go in `python/` folder and files without an extension must go in the `misc` folder.
 
 ### Process
 < Added Unique program >  // please change this accordingly
@@ -38,8 +37,6 @@ Ex:- `.py` files must go in `python/` folder and others in `misc` folder.
 ```sh
 $ git clone <URL>
 $ cd <FolderName>
-$ git branch <new_branch>
-$ git checkout <new_branch>
 ```
 
 Add your Program
