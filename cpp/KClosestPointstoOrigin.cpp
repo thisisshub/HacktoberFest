@@ -1,8 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
  
-// Comparator class to assign
-// priority to coordinates
+// Comparator class to assign priority to coordinates
 class comp {
  
 public:
