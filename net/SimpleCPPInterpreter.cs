@@ -5,6 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/*
+Created by Muhammad Fahli Saputra
+*/
 namespace compiler
 {
 public class Interpreter
