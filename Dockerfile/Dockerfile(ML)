@@ -1,0 +1,10 @@
+FROM centos:7
+RUN yum install python36 -y
+RUN yum install python36-devel -y
+RUN pip3 install numpy
+RUN pip3 install pandas 
+RUN pip3 install scikit-learn 
+RUN pip3 install opencv-python 
+RUN pip3 install matplotlib 
+
+CMD python3 /code/train.py
