@@ -1,0 +1,1 @@
+{"name":"Local: gcd_in_logn","url":"e:\\Code\\Open Source\\HacktoberFest\\cpp\\gcd_in_logn.cpp","tests":[{"id":1633194568611,"input":"6 18","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Code\\Open Source\\HacktoberFest\\cpp\\gcd_in_logn.cpp","group":"local","local":true}
