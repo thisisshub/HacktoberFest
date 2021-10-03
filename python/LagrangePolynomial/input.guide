@@ -1,0 +1,9 @@
+[*] Each line of it consists of n arrays sepated by ";" a which have:
+
+[x,y];[x,y]...
+
+[*] Which represents the points that you have
+
+[*] ----- INPUT EXAMPLE -----
+
+[1980,8300];[1985,9900];[1990,10400];[1993,13200];[1994,13600];[1996,13700];[1998,14600]
