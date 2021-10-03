@@ -1,0 +1,13 @@
+[*] Each line of it consists of 2 arrays sepated by ";" a which have:
+
+[elements,of,X,axis];[elements,of,Y,axis]
+
+[*] Each line also have the function family, e.g:
+
+ax + b
+
+[*] By now, it just works with polynominal functions
+
+[*] ----- INPUT EXAMPLE -----
+
+[1980,1985,1989,1992,1994,1995,1997];[248.8,398.0,503.7,684.9,749.9,793.5,865.7];x**2+bx+c
