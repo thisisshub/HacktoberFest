@@ -1,60 +1,52 @@
-#github link : github.com/rrs99
+import turtle
+PIXEL_POSITION = [(0, 0), (-20, 0), (-40, 0)]  # positions for the 3 square pixels
+MOVE_DISTANCE = 20
+UP = 90
+DOWN = 270
+LEFT = 180
+RIGHT = 0
 
-import random
-import curses
 
-s = curses.initscr()
-curses.curs_set(0)
-sh, sw = s.getmaxyx()
-w = curses.newwin(sh, sw, 0, 0)
-w.keypad(1)
-w.timeout(100)
+class Snake:
+    def __init__(self):
+        self.snake_segment = []
+        self.create_snake()
+        self.head = self.snake_segment[0]
 
-snk_x = sw/4
-snk_y = sh/2
-snake = [
-    [snk_y, snk_x],
-    [snk_y, snk_x-1],
-    [snk_y, snk_x-2]
-]
+    def create_snake(self):  # creates the initial 3 pixel snake
+        # this loop creates the starting snake that is 3 square pixels positioned side by side
+        for index in PIXEL_POSITION:
+            self.add_segment(index)
 
-food = [sh/2, sw/2]
-w.addch(int(food[0]), int(food[1]), curses.ACS_PI)
+    def add_segment(self, index):
+        snake_pixel = turtle.Turtle(shape="square")
+        snake_pixel.color("white")
+        snake_pixel.penup()
+        snake_pixel.goto(index)
+        self.snake_segment.append(snake_pixel)
 
-key = curses.KEY_RIGHT
+    def extend(self):
+        self.add_segment(self.snake_segment[-1].position())
 
-while True:
-    next_key = w.getch()
-    key = key if next_key == -1 else next_key
+    def move_snake(self):
+        for segment in range(len(self.snake_segment) - 1, 0, -1):  # start = len -1 because list starts from 0.
+            # the next line is used to give the x and y coordinates of the further element to the element before
+            # that is the coordinates of 2nd pixel is given to 3rd pixel, 1st to 2nd and so on.
+            self.snake_segment[segment].goto(self.snake_segment[segment - 1].xcor(), self.snake_segment[segment - 1].ycor())
+        self.head.forward(MOVE_DISTANCE)
 
-    if snake[0][0] in [0, sh] or snake[0][1]  in [0, sw] or snake[0] in snake[1:]:
-        curses.endwin()
-        quit()
+    def up(self):
+        if self.head.heading() != DOWN:
+            self.head.setheading(90)
 
-    new_head = [snake[0][0], snake[0][1]]
+    def down(self):
+        if self.head.heading() != UP:
+            self.head.setheading(270)
 
-    if key == curses.KEY_DOWN:
-        new_head[0] += 1
-    if key == curses.KEY_UP:
-        new_head[0] -= 1
-    if key == curses.KEY_LEFT:
-        new_head[1] -= 1
-    if key == curses.KEY_RIGHT:
-        new_head[1] += 1
+    def left(self):
+        if self.head.heading() != RIGHT:
+            self.head.setheading(180)
 
-    snake.insert(0, new_head)
-
-    if snake[0] == food:
-        food = None
-        while food is None:
-            nf = [
-                random.randint(1, sh-1),
-                random.randint(1, sw-1)
-            ]
-            food = nf if nf not in snake else None
-        w.addch(food[0], food[1], curses.ACS_PI)
-    else:
-        tail = snake.pop()
-        w.addch(int(tail[0]), int(tail[1]), ' ')
-
-    w.addch(int(snake[0][0]), int(snake[0][1]), curses.ACS_CKBOARD)
+    def right(self):
+        if self.head.heading() != LEFT:
+            self.head.setheading(0)
