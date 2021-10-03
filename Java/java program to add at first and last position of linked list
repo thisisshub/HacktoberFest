@@ -1,0 +1,30 @@
+import java.util.*;
+  
+public class GFG {
+    public static void main(String args[])
+    {
+        // Creating linked list
+        LinkedList<String>
+            linkedList = new LinkedList<String>();
+  
+        // Adding elements to the linked list
+        // By default elements are inserted at 
+        // the last.
+        linkedList.add("e");
+        linkedList.add("e");
+        linkedList.add("k");
+        System.out.println("Linked list: "
+                           + linkedList);
+  
+        // Inserting at first position
+        linkedList.addFirst("G");
+  
+        // Inserting at last position
+        linkedList.addLast("s");
+  
+        // Print the updated LinkedList
+        System.out.println("Updated Linked list: "
+                           + linkedList);
+    }
+}
+Output:
