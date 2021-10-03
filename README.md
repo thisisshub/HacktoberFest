@@ -48,4 +48,9 @@ $ git push origin <new_branch>
 ```
 Go and Generate your first Pull request from Github
 
+### Stargazers
+
+[![Stargazers repo roster for @thisisshub/HacktoberFest](https://reporoster.com/stars/dark/thisisshub/HacktoberFest)](https://github.com/thisisshub/Hacktoberfest/stargazers)
+
+
 ### THANKS A LOT FOR YOUR SUPPORT!! REALLY HELPS ME A LOT!
