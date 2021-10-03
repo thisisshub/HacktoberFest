@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Photo Blog</title>
+        <link rel="stylesheet" href="photo.css"
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav>Samana Butool</nav>
+        <img src="https://images.unsplash.com/photo-1632338578837-2de182b5159b?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE4fHhqUFI0aGxrQkdBfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"><img src="https://images.unsplash.com/photo-1632234510318-16add4f4e0ca?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDM0fHhqUFI0aGxrQkdBfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"><img src="https://images.unsplash.com/photo-1599894019794-50339c9ad89c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHJlbmFpc3NhbmNlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+        <img src="https://images.unsplash.com/photo-1468327768560-75b778cbb551?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Zmxvd2Vyc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"><img src="https://images.unsplash.com/photo-1535704882196-765e5fc62a53?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzZ8fGJlYXV0aWZ1bCUyMGdpcmxzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"><img src="https://images.unsplash.com/photo-1619930763537-1b6f30ebc2da?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aG9uZyUyMGtvbmclMjBkaXNuZXlsYW5kfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">   
+        <img src="https://images.unsplash.com/photo-1596991139504-0786ab7b77da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8M3wyNDY1MDM1NHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"><img src="https://images.unsplash.com/photo-1511527661048-7fe73d85e9a4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c3BhaW58ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"><img src="https://images.unsplash.com/photo-1560796819-89ab1929cdd2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Y2hpbGRyZW58ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+        </body>
+</html>
