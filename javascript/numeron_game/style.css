@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.game-cover {
+    background: url("https://res.cloudinary.com/dkd5jyhic/image/upload/v1601143553/Assets-Numeron/numeron-bg_mm5r8c.png") no-repeat;
+    background-size: cover;
+}
+
+body {
+    font-family: 'Russo One', sans-serif;
+    color: white;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.flex-centered {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.game {
+    background: url("https://res.cloudinary.com/dkd5jyhic/image/upload/v1601143552/Assets-Numeron/game-inside-bg_a3mgvz.png") no-repeat;
+    background-size: cover;
+}
+
+#logo {
+    width: 80%;
+    height: auto;
+}
+
+.play {
+    width: 180px;
+    cursor: pointer;
+}
+
+#numbers {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.number-holder {
+    background-color: white;
+    color: black;
+    width: 25vw;
+    max-width: 200px;
+    max-height: 200px;
+    height: 25vw;
+    border: 2px solid #EE2689;
+}
+
+#instructions {
+    font-size: 6vw;
+}
+
+#numbers * {
+    font-size: 4vw;
+}
+
+#buttons * {
+    width: 25%;
+    min-width: 120px;
+    cursor: pointer;
+}
+
+#timer {
+    width: 10%;
+    position: absolute;
+    top: 5vh;
+    right: 5vh;
+    font-size: 6vw;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+#game-over-text {
+    width: 50%;
+    max-width: 500px;
+}
+
+#score-box {
+    font-size: 6vw;
+    border: 1px solid white;
+    padding: 2vw;
+}
+
+.operators {
+    font-size: 3em;
+    border: 1px solid #ee2689;
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    margin-right: 100px;
+    border-radius: 50%;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
