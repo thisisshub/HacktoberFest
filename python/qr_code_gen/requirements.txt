@@ -1,5 +1,0 @@
-decorator==5.1.0
-pypng==0.0.21
-PyQRCode==1.2.1
-six==1.16.0
-validators==0.18.2
