@@ -1,0 +1,14 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "Hacktoberfest",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node ./server.js"
+  },
+  "author": "amanu-nur",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
