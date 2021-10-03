@@ -1,0 +1,108 @@
+//srishti1302
+#include<stdio.h>
+#define MAX_STACK_SIZE 100
+typedef enum{
+
+    lparen,rparen,plus,minus,times,divide,mod,eos,operand
+}precedence;
+precedence stacks[MAX_STACK_SIZE];
+char exprs[MAX_STACK_SIZE];
+static int isp[]={0,19,12,12,13,13,13,0};
+static int icp[]={20,19,12,12,13,13,13,0};
+
+precedence get_tokens(char *symbols,int *ns){
+    *symbols=exprs[(*ns)++];
+
+    switch(*symbols)
+    {
+        case '(':return lparen;
+
+        case ')':return rparen;
+
+        case '+':return plus;
+
+        case '-':return minus;
+
+        case '%':return mod;
+        case '/':return divide;
+
+        case '\0':return eos;
+        case '*':return times;
+
+        default: return operand;
+
+    }
+}
+
+
+void addp(int *tops,precedence xs){
+  // printf("\n in add func top=%d x=%x",%d);
+    stacks[++*tops]=xs;
+
+}
+
+
+int delp(int *tops){
+//    stack[]
+    return stacks[(*tops)--];
+}
+
+void print_token(precedence X){
+    switch(X){
+        case plus:  printf("+");
+                    break;
+        case minus:  printf("-");
+                    break;
+        case times:  printf("*");
+                    break;
+        case divide:  printf("/");
+                    break;
+        case mod:  printf("%%");
+                    break;
+        case eos :break;
+    }
+}
+
+
+void postfix(){
+
+    char symbols;
+    precedence tokens;
+    int ns=0;
+    int tops=0;
+    stacks[0]=eos;
+    for(tokens=get_tokens(&symbols,&ns); tokens!=eos; tokens=get_tokens(&symbols,&ns))
+    {
+        if(tokens==operand)
+            printf("%c",symbols);
+        else if(tokens==rparen){
+            while(stacks[tops]!=lparen)
+                print_token(delp(&tops));
+            delp(&tops);
+        }
+        else{
+
+            while(isp[stacks[tops]]>=icp[tokens])
+
+                print_token(delp(&tops));
+
+
+            addp(&tops,tokens);
+        }
+
+    }
+
+    while((tokens=delp(&tops))!=eos)
+        print_token(tokens);
+
+    printf("\n");
+
+}
+int main(){
+
+    printf("Enter infix expression to be converted to postfix");
+    gets(exprs);
+
+    postfix();
+    return 0;
+}
