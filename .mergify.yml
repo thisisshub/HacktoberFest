@@ -1,7 +1,7 @@
 pull_request_rules:
   - name: automatic merge for master
     conditions:
-      - "#approved-reviews-by>=0"
+      - "#approved-reviews-by>=10"
       - base=master
     actions:
       label:
