@@ -1,0 +1,190 @@
+h1 {
+    font-family: 'Montserrat-black', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 1000;
+    line-height: 1.5;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+    font-size: 3rem;
+    font-weight: 1000;
+
+}
+
+h3{
+    font-family: 'Montserrat-bold', sans-serif;
+font-size: 30px;
+color: black;
+}
+
+
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+/* navigation bar */
+
+.navbar{
+    padding: 0 0 100px;
+}
+
+.navbar-brand{
+    font-size: 50px;
+    font-family: "ubuntu";
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 20px;
+    font-family: "Montserrat-light", sans-serif;
+}
+
+/* download buttons */
+
+.download-btn{
+   margin: 5% 3% 5% 0;
+}
+
+/* title-image */
+
+.title-img{
+    position: absolute;
+    width: 20%;
+    transform: rotate(25deg);
+    right: 25%;
+}
+
+
+/* features */
+
+#features{
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+    padding: 150px;
+    color: #8f8f8f;
+    font-weight: bold;
+}
+
+.fa-check-circle{
+    color: #ef8172;
+    padding-bottom: 15px;
+    
+}
+
+.fa-bullseye{
+    color: #ef8172;
+    padding-bottom: 15px;
+
+}
+
+.fa-heart{
+    color: #ef8172;
+    padding-bottom: 15px;
+
+}
+
+.fa-check-circle:hover{
+    color: #ff4c68;
+
+}
+
+.fa-bullseye:hover{
+    color: #ff4c68;
+}
+
+.fa-heart:hover{
+    color: #ff4c68;
+
+}
+
+.second-pg{
+    text-align: center;
+}
+
+/* testimonials section */
+
+.carousel-item{
+    background-color: #ef8172;
+    padding: 12%;
+    font-family: "Montserrat-bold", sans-serif;
+    text-align: center;
+    color: #fff;
+}
+
+#testimonials{
+    background-color: #ef8172;
+
+}
+
+.carousel-img{
+    width: 15%;
+    margin: 20px;
+    border-radius: 100%;
+}
+
+/* press sections */
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 50px;
+    text-align: center;
+
+}
+
+.press-img{
+    width: 15%;
+    padding: 20px 20px 50px;
+}
+
+/* pricing section */
+
+#pricing{
+    text-align: center;
+    padding: 100px;
+}
+
+.pricing-col{
+    padding: 3% 2%;
+}
+
+.price{
+    color: #8f8f8f ;
+    font-size: 20px;
+}
+
+
+/* cta and footer */
+
+#cta{ 
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 3% 15% 3%;
+    
+
+}
+
+#cta h3{
+    font-family: 'Montserrat-black', sans-serif;
+    font-size: 3rem;
+    font-weight: 1000;
+    color: #fff;
+}
+
+#footer{
+    text-align: center;
+    padding: 3% 15% 3%;
+}
